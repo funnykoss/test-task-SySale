@@ -42,12 +42,8 @@ const ProductCard = ({ cards }) => {
   const changeImg = (event) => {
     setHovered(hovered => !hovered)
   }
-  // const changePrice = (event) => {
-  //   console.log(price);
-  // }
-
+ 
   
-
   return (
     <>
       <div className={s.section}>
