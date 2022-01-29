@@ -1,0 +1,17 @@
+.imgThumb{
+    position: absolute;
+    right: 29px;
+    top: 43px;
+  width:46.08px;
+    height:46.08px  ;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    fill: #003466;
+    stroke: 0.2px #003466;
+}

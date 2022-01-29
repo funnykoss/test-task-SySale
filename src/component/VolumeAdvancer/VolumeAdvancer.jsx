@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 
+import s from './VolumeAdvancer.css'
 
 const VolumeAdvancer = () => {
     const form = useRef()
@@ -13,7 +14,7 @@ const VolumeAdvancer = () => {
     
     return (
         <>
-            <form ref={form}>
+            <form ref={form} className="radioBtnVolume">
    <label>
          <input
             name="value"

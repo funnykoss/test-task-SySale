@@ -1,0 +1,33 @@
+.bottomBtn{
+    display: flex;
+}
+.productCardItem{
+   text-align: center;
+}
+
+.statusBtn{
+    position: absolute;
+    top: 43px;
+    left: 29px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.imgThumb{
+    margin: 0 auto;
+    width :256px;
+    height:261px;
+    overflow: hidden;
+}
+.cardTitle{
+    font-family: 'SF UI Display';
+    font-size: 24px;
+    color:#2C2C2C;
+    font-weight: 500;
+    margin-top: 25px;
+}
