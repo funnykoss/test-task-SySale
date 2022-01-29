@@ -6,7 +6,7 @@ import s from "./ProductCard.module.css";
 import ColorAdvancer from "../ColorAdvancer";
 import Scales from "../Scales";
 import ProductPrice from '../ProductPrice'
-import Value from "../Counter/Value"
+import Value from "../Value"
 
 
 const ProductCard = ({ cards }) => {
