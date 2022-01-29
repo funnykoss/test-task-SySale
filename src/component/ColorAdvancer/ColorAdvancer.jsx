@@ -1,6 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React,  { useState } from "react"
-import List from './List'
 import ColorList from "../ColorList/ColorList";
 import s from './ColorAdvancer.module.css'
 import { IoIosArrowDown } from 'react-icons/io';

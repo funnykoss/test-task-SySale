@@ -6,14 +6,15 @@ function Button({
     width = '328px',
     type = 'button',
     fontSize = '18px',
-      fontWeight='800',
+  fontWeight = '800',
+    active=false,
  
 }) {
   return (
     <div>
       <button
         type={type}
-        className={s.button}
+        className={active? s.buttonActive:s.button}
         style={{  width: `${width}`, fontSize:`${fontSize}`, fontWeight:`${fontWeight}`}}
       >
         {name}
