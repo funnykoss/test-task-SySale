@@ -57,15 +57,39 @@ transition: box-shadow 500ms linear, transform 500ms ease-in-out;
     text-align: left;
     line-height: 1,5px;
 }
-.price{
-    font-family: 'SF UI Display';
-    font-size: 18px;
-    color:#2C2C2C;
-    font-weight: 600;
-    text-align: right;
-    margin-top: 25px; 
-}
+
 
 .cardImg{
     width: 100%;
+}
+.counter{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    background-color:#E2E9F0;
+    padding: 19px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 92px;
+    height: 39px;
+   margin-right: 32px;
+    border-radius: 30px;
+    color:#2C2C2C;
+    cursor: pointer;
+transition: 
+background-color,
+box-shadow 500ms linear, 
+transform 500ms ease-in-out;
+}
+
+.counterBtn{
+    border: transparent;
+    background-color: transparent; 
+}   
+
+.counter:hover,
+.counter:focus{
+    background-color: #D8E3EE;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1)
 }
