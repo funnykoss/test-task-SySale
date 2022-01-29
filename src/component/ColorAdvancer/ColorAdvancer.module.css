@@ -1,0 +1,42 @@
+.colorAdvancer{
+    position: absolute;
+    left: 29px;
+    top: 56%;
+    width :258px;
+    height:30px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding:  20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.advancerIcon{
+    fill: #2C2C2C;
+    width:15px;
+    height:15px;
+}
+.title{
+    font-family: 'SF UI Display';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.colorsList{
+position: absolute;
+    top: 79%;
+    left: 0;
+
+background-color: #FFFFFF;
+
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+.colorItem{
+
+    
+    width:258px;
+    padding: 12px 20px;
+}

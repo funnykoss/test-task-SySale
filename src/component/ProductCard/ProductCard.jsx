@@ -22,12 +22,16 @@ const ProductCard = ({ cards }) => {
               </div>
              
               <p className={s.cardTitle}>{title}</p>
-              <p>{description}</p>
-              <p>{price}</p>
+              <p className={s.cardDescription}>{description}</p>
+              <p className={s.price}>{price}</p>
             </li>
           ))}
         </ul>
-        <ColorAdvancer />
+        
+          <ColorAdvancer />
+          
+       
+     
         <VolumeAdvancer />
         <div className={s.bottomBtn}>
           <Counter />

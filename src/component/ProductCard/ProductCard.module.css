@@ -31,3 +31,22 @@
     font-weight: 500;
     margin-top: 25px;
 }
+
+.cardDescription{
+     font-family: 'SF UI Display';
+    font-size: 16px;
+    color:#2C2C2C;
+    font-weight: 400;
+    margin-top: 10px; 
+    text-align: left;
+    line-height: 1,5px;
+}
+.price{
+    font-family: 'SF UI Display';
+    font-size: 18px;
+    color:#2C2C2C;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 25px; 
+}
+

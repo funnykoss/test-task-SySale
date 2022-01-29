@@ -1,9 +1,16 @@
-const List = ({colors}) => {
+
+
+import s from './ColorAdvancer.module.css'
+
+
+const List = ({ colors }) => {
+
+    
     return (
         <>
-            <ul>
+            <ul className={s.colorsList}>
                 {colors.map(({ id, color }) => (
-                    <li key={id}>
+                    <li key={id} className={s.colorItem}>
                         {color}
                     </li>
 

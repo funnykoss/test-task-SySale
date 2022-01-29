@@ -1,14 +1,11 @@
 import React, { useRef, useState } from "react";
 
-import s from './VolumeAdvancer.css'
+// import s from './VolumeAdvancer.css'
 
 const VolumeAdvancer = () => {
     const form = useRef()
-    console.log(form);
     const [size, setSize] = useState("100")
     const handleChange = (event) => {
-        console.log("current target", event.currentTarget);
-        console.log("target", event.target);
          setSize(event.currentTarget.value)
     }
     
