@@ -1,14 +1,20 @@
 import React from "react";
-import Button from "../../component/Button";
 import ProductCard from '../../component/ProductCard'
-import cards from '../../JSON/cards.json'
+import card1 from '../../JSON/card1.json'
+import card2 from '../../JSON/card2.json'
+import card3 from '../../JSON/card3.json'
+import s from './CardView.module.css'
 
 const CardView = () => {
     return (
         <>
-        {/* <Button width="300px" name="купить" />
-            <Button width="71px" name="new" fontSize="14px" fontWeight="500" /> */}
-            <ProductCard cards={ cards}/>
+            <div className={s.cards}>
+                <ProductCard cards={card1} />
+                <ProductCard cards={card2} />
+                <ProductCard cards={card3} />  
+           </div>
+              
+          
         </>
     )
 }
