@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React,  { useState } from "react"
 import List from './List'
-import colors from '../../JSON/colors.json'
+import ColorList from "../ColorList/ColorList";
 import s from './ColorAdvancer.module.css'
 import { IoIosArrowDown } from 'react-icons/io';
 
@@ -9,12 +9,17 @@ import { IoIosArrowDown } from 'react-icons/io';
 
 const ColorAdvancer = () => {
     const [visible, setVisible] = useState(false);
+    
     const toggleList = event => {
-        console.log(event);
+        
     event.preventDefault();
     setVisible(visible => !visible);
     };
-    
+   
+
+    function handleClick() {
+        setVisible(false)
+    }
 
     return (
         <>
@@ -24,7 +29,7 @@ const ColorAdvancer = () => {
                     ? <IoIosArrowDown className={s.activeAdvancerIcon}/> 
                     : <IoIosArrowDown className={s.advancerIcon}/>}
 
-                {visible && <List colors={colors} />}
+                {visible && <ColorList onClose={handleClick}/>}
 
                
             </div>

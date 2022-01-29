@@ -7,14 +7,17 @@ import s from './Counter.module.css'
 
 const Counter = () => {
 
-    const [value, setValue] = useState("1")
+    const [count, setCount] = useState(1)
     const handleIncrement = () => {
-        setValue(prevValue => 
-          prevValue +1) 
+        
+        setCount(prevCount=>prevCount + 1) 
     }
     const handleDecrement = () => {
-        setValue(prevValue => 
-            prevValue-1)
+       
+        setCount((prevCount) => {
+            
+            return Math.max(prevCount - 1, 1)
+        }) 
     }
 
     return (
@@ -23,7 +26,7 @@ const Counter = () => {
                 <button onClick= {handleDecrement} className={s.counterBtn}>
                     -
                 </button>
-                        <Value value={value}/>
+                        <Value value={count}/>
                 <button onClick= {handleIncrement} className={s.counterBtn}>
                     +
                 </button>
