@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button";
 import VolumeAdvancer from '../VolumeAdvancer'
 import s from './ProductCard.module.css'
-
+import Counter from '../Counter'
 
 
 
@@ -23,7 +23,8 @@ const ProductCard = ({ cards }) => {
                     </li>
                 )
                 )}  
-                <VolumeAdvancer  />
+                <VolumeAdvancer />
+                <Counter/>
                  <Button width="300px" name="купить" />
 
             </ul>
