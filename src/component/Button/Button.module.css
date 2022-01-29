@@ -1,0 +1,20 @@
+.button {
+  
+font-family: 'SF UI Display';
+  height: 39px;
+  border-radius: 30px;
+  background: linear-gradient(70deg, #CF9E1F, #EFBB37);
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-color: transparent;
+  
+
+}
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  background-color: linear-gradient(70deg, #CF9E1F, #EFBB37);
+}
+
