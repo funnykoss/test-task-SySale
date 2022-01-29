@@ -1,7 +1,7 @@
 .colorAdvancer{
     position: absolute;
     left: 29px;
-    top: 56%;
+    top:66%;
     width :258px;
     height:30px;
     border-radius: 30px;
@@ -17,6 +17,10 @@
     width:15px;
     height:15px;
 }
+
+.activeAdvancerIcon{
+  transform: rotate(180deg);  
+}
 .title{
     font-family: 'SF UI Display';
     font-size: 15px;
@@ -24,19 +28,23 @@
 }
 
 .colorsList{
-position: absolute;
+    position: absolute;
     top: 79%;
     left: 0;
 
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .colorItem{
-
-    
     width:258px;
     padding: 12px 20px;
 }
+
+.colorItem:hover,
+.colorItem:focus{
+    background-color: #E5E5E5;
+}
+

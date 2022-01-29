@@ -1,0 +1,15 @@
+.radioBtnVolume{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.radioBtn{
+    margin-bottom: 5px;
+}
+
+.radioBtnCheckt{
+    margin-right: 10px;
+   
+}

@@ -20,8 +20,13 @@ const ColorAdvancer = () => {
         <>
             <div className={s.colorAdvancer}  onClick={toggleList} >
                 <p className={s.title}>Цвет</p>
+                {visible
+                    ? <IoIosArrowDown className={s.activeAdvancerIcon}/> 
+                    : <IoIosArrowDown className={s.advancerIcon}/>}
+
                 {visible && <List colors={colors} />}
-                <IoIosArrowDown className={ s.advancerIcon}/>
+
+               
             </div>
             
            

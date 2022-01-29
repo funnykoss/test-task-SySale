@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 
 import Value from "./Value"
+import s from './Counter.module.css'
 
 
 
@@ -18,16 +19,15 @@ const Counter = () => {
 
     return (
         <>
-            <button onClick= {handleDecrement}>
-                -
-         </button>
-           
-                <Value value={value}/>
-           <button onClick= {handleIncrement}>
-               +
-         </button>
-               
-         
+            <div className={s.counter}>
+                <button onClick= {handleDecrement} className={s.counterBtn}>
+                    -
+                </button>
+                        <Value value={value}/>
+                <button onClick= {handleIncrement} className={s.counterBtn}>
+                    +
+                </button>
+            </div>
         </>
     )
 }

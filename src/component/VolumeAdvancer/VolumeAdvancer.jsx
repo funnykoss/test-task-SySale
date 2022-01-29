@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import s from './VolumeAdvancer.module.css'
 
 // import s from './VolumeAdvancer.css'
 
@@ -11,9 +12,9 @@ const VolumeAdvancer = () => {
     
     return (
         <>
-            <form ref={form} className="radioBtnVolume">
-   <label>
-         <input
+         <form ref={form} className={s.radioBtnVolume}>
+        <label className={s.radioBtn}>
+         <input className={s.radioBtnCheckt}
             name="value"
             type="radio"
             value="100"
@@ -21,19 +22,19 @@ const VolumeAdvancer = () => {
                     checked={size==="100"}
                 />
                 100 мл
-     </label>
-       <label>
-        <input
+        </label>
+        <label className={s.radioBtn}>
+        <input className={s.radioBtnCheckt}
             name="value"
             type="radio"
-           value="200"
+            value="200"
                     onChange={handleChange}
                      checked={size==="200"}
                 />
                  200 мл
       </label>
         <label>
-        <input
+        <input className={s.radioBtnCheckt}
             name="value"
             type="radio"
             value="300"

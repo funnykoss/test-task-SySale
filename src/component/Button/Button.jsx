@@ -6,7 +6,7 @@ function Button({
     width = '328px',
     type = 'button',
     fontSize = '18px',
-  fontWeight='800'
+      fontWeight='800',
  
 }) {
   return (

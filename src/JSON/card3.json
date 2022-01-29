@@ -2,6 +2,7 @@
     {
         "id": "3",
         "img": "/images/card-images/3.jpeg",
+        "imgLarge": "/images/card-images/3_hover.svg",
         "title": "Шампунь",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
         "price": "200грн"

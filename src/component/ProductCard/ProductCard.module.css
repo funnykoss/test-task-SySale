@@ -1,5 +1,6 @@
 .bottomBtn{
     display: flex;
+    margin-top: 25px;
 }
 .productCardItem{
    text-align: center;
@@ -14,16 +15,31 @@
 .section{
     display: flex;
     flex-direction: column;
-
-    align-items: center;
+     position: relative;
+   background-color: #F8FAFC;
+   max-width: 573px;
+   max-height:707px;
+   border-radius: 25px;
+   padding:  54px 31px;
 }
 
 .imgThumb{
     margin: 0 auto;
-    width :256px;
+    width:275px;
     height:261px;
     overflow: hidden;
+    border-radius: 25px;
+    
+transition: box-shadow 500ms linear, transform 500ms ease-in-out;
+    
 }
+
+.imgThumb:hover,
+.imgThumb:focus{
+ box-shadow: 0px 4px 45px #C3D4E4;
+ border-radius: 45px;
+}
+
 .cardTitle{
     font-family: 'SF UI Display';
     font-size: 24px;
@@ -50,3 +66,6 @@
     margin-top: 25px; 
 }
 
+.cardImg{
+    width: 100%;
+}

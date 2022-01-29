@@ -3,18 +3,19 @@
 font-family: 'SF UI Display';
   height: 39px;
   border-radius: 30px;
-  background: linear-gradient(70deg, #CF9E1F, #EFBB37);
-  font-size: 18px;
+background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);  font-size: 18px;
   font-weight: 600;
   color: #FFFFFF;
   text-transform: uppercase;
   border-color: transparent;
-  
+  transition: background-color, box-shadow 500ms linear, transform 500ms ease-in-out;
 
 }
 .button:hover,
 .button:focus {
   cursor: pointer;
-  background-color: linear-gradient(70deg, #CF9E1F, #EFBB37);
+background: linear-gradient(261.65deg, #E9B32C -3.95%, #BF911A 109.44%);
+box-shadow: 0px 0px 20px #E8CB80;
+border-radius: 20px;
 }
 
