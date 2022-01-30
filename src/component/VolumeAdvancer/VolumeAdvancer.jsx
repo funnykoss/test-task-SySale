@@ -9,37 +9,44 @@ const VolumeAdvancer = () => {
     const handleChange = (event) => {
          setSize(event.currentTarget.value)
     }
-    
+  
     return (
         <>
+            
          <form ref={form} className={s.radioBtnVolume}>
-        <label className={s.radioBtn}>
-         <input className={s.radioBtnCheckt}
+        <label className={s.radioBtn} htmlFor="pink">
+         <input className={s.radioBtnChecked}
             name="value"
             type="radio"
             value="100"
                     onChange={handleChange}
                     checked={size==="100"}
-                />
+                        id="white"
+                       
+                    />
                 100 мл
         </label>
-        <label className={s.radioBtn}>
-        <input className={s.radioBtnCheckt}
+        <label className={s.radioBtn} htmlFor="white">
+        <input className={s.radioBtnChecked}
             name="value"
             type="radio"
             value="200"
                     onChange={handleChange}
-                     checked={size==="200"}
+                        checked={size === "200"}
+                        id="pink"
+                       
                 />
                  200 мл
       </label>
-        <label>
-        <input className={s.radioBtnCheckt}
+        <label htmlFor="red">
+        <input className={s.radioBtnChecked}
             name="value"
             type="radio"
             value="300"
                     onChange={handleChange}
-                    checked={size==="300"}
+                        checked={size === "300"}
+                        id="red"
+                       
                 />
                  300 мл
         </label>
