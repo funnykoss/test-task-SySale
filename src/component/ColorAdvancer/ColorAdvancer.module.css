@@ -1,5 +1,6 @@
 .colorAdvancer{
     position: absolute;
+    z-index: 1000;
     left: 29px;
     top:66%;
     width :258px;
