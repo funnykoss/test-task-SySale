@@ -11,8 +11,7 @@ const VolumeAdvancer = () => {
     }
   
     return (
-        <>
-            
+        <div className={ s.section}> 
          <form ref={form} className={s.radioBtnVolume}>
         <label className={s.radioBtn} htmlFor="pink">
          <input className={s.radioBtnChecked}
@@ -52,7 +51,7 @@ const VolumeAdvancer = () => {
         </label>
             </form>
   
-     </>
+     </div>
     )
 }
 

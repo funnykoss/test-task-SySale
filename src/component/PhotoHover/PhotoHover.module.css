@@ -1,0 +1,20 @@
+.imgThumb{
+    margin: 0 auto;
+    width:275px;
+    height:261px;
+    overflow: hidden;
+    border-radius: 25px;
+    
+transition: box-shadow 500ms linear, transform 500ms ease-in-out;
+    
+}
+
+.imgThumb:hover,
+.imgThumb:focus{
+ box-shadow: 0px 4px 45px #C3D4E4;
+ border-radius: 45px;
+}
+
+.cardImg{
+    width: 100%;
+}

@@ -2,8 +2,10 @@
     display: flex;
     margin-top: 25px;
 }
-.productCardItem{
+.productCardList{
    text-align: center;
+   display: flex;
+  
 }
 
 .statusBtn{
@@ -11,16 +13,18 @@
     top: 43px;
     left: 29px;
 }
-
-.section{
+.productCardItem{
     display: flex;
     flex-direction: column;
-     position: relative;
-   background-color: #F8FAFC;
+    position: relative;
+    background-color: #F8FAFC;
    max-width: 573px;
    max-height:707px;
    border-radius: 25px;
    padding:  54px 31px;
+}
+.productCardItem:not(:last-child){
+margin-right: 15px;
 }
 
 .imgThumb{
